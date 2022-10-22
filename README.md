@@ -49,7 +49,18 @@ npm i -D @types/express
 1. [Jasmine](https://jasmine.github.io/)
 2. [supertest](https://www.npmjs.com/package/supertest)
 
-# Setting Up The Project
+## Endpoints
+
+1. Homepage Endpoint
+   `http://localhost:3000/`
+
+2. API main Endpoint
+   `/api`
+   
+3. Resizing Endpoint
+   `/api/imageResize?name={image-name}width=<image-width>&height=<image-height>`
+
+## Setting Up The Project
 
 1. Install all dependencies
    `npm install`
@@ -67,15 +78,5 @@ npm i -D @types/express
    `npm run prettier`
    `npm run lint`
 
-# Endpoints
-
-1. Homepage Endpoint
-   `http://localhost:3000/`
-
-2. API main Endpoint
-   `/api`
-   
-3. Resizing Endpoint
-   `/api/imageResize?name={image-name}width=<image-width>&height=<image-height>`
 
 
