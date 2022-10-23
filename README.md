@@ -58,7 +58,7 @@ npm i -D @types/express
    `/api`
    
 3. Resizing Endpoint
-   `/api/imageResize?name={image-name}width=<image-width>&height=<image-height>`
+   `/api/imageResize?name={image-name}&width=<image-width>&height=<image-height>`
 
 ## Setting Up The Project
 
