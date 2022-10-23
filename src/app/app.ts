@@ -21,7 +21,6 @@ appRouter.get("/", async (req: Request, res: Response): Promise<void> => {
     res.status(404).send(`<h1>Please Enter Valid Image Dimensions</h1>`);
     return;
   }
-  console.log(isNaN(width));
   const formats: string[] = ["jpg", "jpeg", "png"]; // Allowed formats
   const checked: checkObj = check(name, width, height, formats);
   if (checked.valid) {
